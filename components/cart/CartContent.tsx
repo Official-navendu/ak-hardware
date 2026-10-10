@@ -33,12 +33,14 @@ import { WhatsAppIcon } from '@/components/whatsapp/FloatingWhatsApp';
 export function CartContent() {
   const {
     items,
+    addToCart,
     removeFromCart,
     updateQuantity,
     clearCart,
     subtotal,
     discount,
     shipping,
+    estimatedTax,
     grandTotal,
     appliedCoupon,
     applyCoupon,
@@ -219,7 +221,7 @@ export function CartContent() {
                     <span className="font-extrabold text-[#FA3A08] text-xs mt-1">{formatPrice(p.salePrice ?? p.price)}</span>
                     <button
                       type="button"
-                      onClick={() => useCart().addToCart(p, 1)}
+                      onClick={() => addToCart(p, 1)}
                       className="mt-2 w-full bg-[#1B4E9B] hover:bg-[#0C1E38] text-white font-bold text-[11px] py-1.5 rounded-lg transition-colors"
                     >
                       Add Item
@@ -288,7 +290,7 @@ export function CartContent() {
 
                 <div className="flex justify-between text-slate-600">
                   <span>GST / Tax (18%)</span>
-                  <span className="font-bold text-[#0C1E38]">{formatPrice(useCart().estimatedTax)}</span>
+                  <span className="font-bold text-[#0C1E38]">{formatPrice(estimatedTax)}</span>
                 </div>
 
                 <div className="border-t border-slate-200 pt-3 mt-1 flex justify-between items-baseline">
