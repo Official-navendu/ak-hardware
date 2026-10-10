@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <rect width="400" height="400" fill="#F8FAFC"/>
+  <rect x="110" y="100" width="180" height="220" rx="20" fill="#1D4ED8"/>
+  <rect x="100" y="75" width="200" height="30" rx="8" fill="#DC2626"/>
+  <rect x="125" y="145" width="150" height="120" rx="8" fill="#FFFFFF"/>
+  <text x="200" y="180" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20" fill="#DC2626">FEVICOL</text>
+  <text x="200" y="210" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="24" fill="#1D4ED8">SH</text>
+  <text x="200" y="235" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="11" fill="#475569">WOOD ADHESIVE</text>
+</svg>

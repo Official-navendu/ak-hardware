@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* OFFICIAL AK HARDWARE BRAND COLOR SYSTEM */
+    --color-deep-navy: #012157;
+    --color-royal-blue: #014A94;
+    --color-bright-blue: #0088E8;
+    --color-primary-orange: #FA3A08;
+    --color-golden-orange: #F9970A;
+    --color-yellow-accent: #FFB800;
+    --color-green-accent: #00A23A;
+
+    /* NEUTRAL SURFACES & TEXT */
+    --color-white: #FFFFFF;
+    --color-bg-main: #F7F8FA;
+    --color-bg-secondary: #F3F4F6;
+    --color-text-main: #111827;
+    --color-text-secondary: #374151;
+    --color-text-muted: #6B7280;
+    --color-border: #E5E7EB;
+    --color-border-light: #F1F5F9;
+    --color-footer-bg: #012157;
+
+    /* CONTAINER & SPACING */
+    --site-max-width: 1536px;
+    --radius-brand: 6px;
+    --radius-brand-lg: 10px;
+  }
+
+  html, body {
+    background-color: var(--color-bg-main);
+    color: var(--color-text-main);
+    font-family: var(--font-manrope), 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* ACCESSIBLE FOCUS INDICATORS */
+  *:focus-visible {
+    outline: 2px solid var(--color-royal-blue);
+    outline-offset: 2px;
+  }
+
+  /* CUSTOM SCROLLBAR FOR MODERN FEEL */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #F1F5F9;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94A3B8;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-hero-border {
+    animation: heroBorderSpin 5s linear infinite;
+  }
+}
+
+@keyframes heroBorderSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-hero-border {
+    animation: none !important;
+  }
+}

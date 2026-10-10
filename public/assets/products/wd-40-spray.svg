@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <rect width="400" height="400" fill="#F8FAFC"/>
+  <rect x="140" y="110" width="120" height="220" rx="12" fill="#1D4ED8"/>
+  <rect x="170" y="70" width="60" height="40" rx="4" fill="#DC2626"/>
+  <rect x="185" y="50" width="30" height="20" rx="2" fill="#FFFFFF"/>
+  <rect x="150" y="150" width="100" height="120" rx="6" fill="#FACC15"/>
+  <text x="200" y="190" text-anchor="middle" font-family="Arial" font-weight="black" font-size="22" fill="#1D4ED8">WD-40</text>
+  <text x="200" y="215" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="11" fill="#DC2626">MULTI-USE</text>
+  <text x="200" y="235" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="10" fill="#1E293B">LUBRICANT SPRAY</text>
+</svg>

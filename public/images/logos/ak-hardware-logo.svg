@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ak-gradient-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#014A94" />
+      <stop offset="100%" stop-color="#012157" />
+    </linearGradient>
+    <linearGradient id="ak-gradient-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FA3A08" />
+      <stop offset="100%" stop-color="#F9970A" />
+    </linearGradient>
+  </defs>
+
+  <!-- LOGO EMBLEM: HARDWARE HEXAGON BOLT WITH INTEGRATED 'AK' -->
+  <g transform="translate(10, 10)">
+    <!-- Hexagon Outer Frame (Deep Navy & Royal Blue) -->
+    <polygon points="50,5 90,27.5 90,72.5 50,95 10,72.5 10,27.5" fill="url(#ak-gradient-blue)" />
+    
+    <!-- Inner Accent Diamond Cutout (Bright Blue) -->
+    <polygon points="50,14 82,32 82,68 50,86 18,68 18,32" fill="#012157" />
+    
+    <!-- 'A' Structural Beam (Royal Blue) -->
+    <path d="M 32 72 L 50 25 L 56 25 L 42 72 Z" fill="#0088E8" />
+    <path d="M 44 50 L 58 50 L 55 58 L 41 58 Z" fill="#FFFFFF" />
+
+    <!-- 'K' Structural Bolt & Chevron (Primary Orange) -->
+    <path d="M 54 25 L 63 25 L 63 75 L 54 75 Z" fill="#FFFFFF" />
+    <path d="M 63 46 L 80 27 L 88 33 L 70 51 Z" fill="url(#ak-gradient-orange)" />
+    <path d="M 67 48 L 88 70 L 80 76 L 60 54 Z" fill="url(#ak-gradient-orange)" />
+
+    <!-- Hardware Precision Circle Center Dot -->
+    <circle cx="50" cy="50" r="4" fill="#FA3A08" />
+  </g>
+
+  <!-- LOGO TYPOGRAPHY -->
+  <g transform="translate(115, 20)">
+    <!-- AK HARDWARE Main Text -->
+    <text x="0" y="48" font-family="Montserrat, sans-serif" font-size="44" font-weight="900" fill="#012157" letter-spacing="1">AK</text>
+    <text x="75" y="48" font-family="Montserrat, sans-serif" font-size="44" font-weight="800" fill="#014A94" letter-spacing="1.5">HARDWARE</text>
+    
+    <!-- Precision Orange Gear Accent Line -->
+    <rect x="0" y="58" width="375" height="4" rx="2" fill="#FA3A08" />
+    <rect x="290" y="58" width="85" height="4" rx="2" fill="#0088E8" />
+
+    <!-- Subtitle / Tagline -->
+    <text x="2" y="77" font-family="Montserrat, sans-serif" font-size="12" font-weight="700" fill="#374151" letter-spacing="4.5">TOOLS • PLUMBING • ELECTRICAL • SUPPLIES</text>
+  </g>
+</svg>

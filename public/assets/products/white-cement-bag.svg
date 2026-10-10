@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <rect width="400" height="400" fill="#F8FAFC"/>
+  <path d="M110,90 L290,90 L310,320 L90,320 Z" fill="#0284C7"/>
+  <rect x="120" y="130" width="160" height="130" rx="8" fill="#FFFFFF"/>
+  <text x="200" y="165" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="18" fill="#0369A1">JK CEMENT</text>
+  <text x="200" y="190" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15" fill="#0F172A">WHITE CEMENT</text>
+  <text x="200" y="212" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="12" fill="#0284C7">SUPER WHITE</text>
+  <rect x="140" y="275" width="120" height="30" rx="15" fill="#075985"/>
+  <text x="200" y="295" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="14" fill="#FFFFFF">50 KG BAG</text>
+</svg>
